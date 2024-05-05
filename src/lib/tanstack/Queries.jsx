@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import { toast } from "react-toastify";
 
 export function useGetCurrentUser() {
     return useQuery({
@@ -16,7 +15,6 @@ export function useGetCurrentUser() {
 
             } catch (error) {
                 console.log(error);
-                toast.error('Signin failed')
             }
         }
     })

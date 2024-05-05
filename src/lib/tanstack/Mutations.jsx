@@ -1,6 +1,5 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import axios from 'axios'
-import { toast } from 'react-toastify'
 
 
 // Auth
@@ -20,7 +19,6 @@ export function useCreateAccount() {
 
             } catch (error) {
                 console.error(error)
-                toast.error('Signup failed')
             }
         }
     })
@@ -45,7 +43,6 @@ export function useSigninAccount() {
 
             } catch (error) {
                 console.error(error)
-                toast.error('Signin failed')
             }
         }
     })
@@ -66,7 +63,6 @@ export function useLogoutAccount() {
 
             } catch (error) {
                 console.error(error)
-                toast.error('Signin failed')
             }
         }
     })
@@ -92,7 +88,6 @@ export function useAddCategory() {
 
             } catch (error) {
                 console.log(error);
-                toast.error('Adding category failed')
             }
         },
         onSuccess: () => {
@@ -148,7 +143,6 @@ export function useAddExpense() {
 
             } catch (error) {
                 console.log(error);
-                toast.error('Adding expense failed')
             }
         },
         onSuccess: () => {
@@ -177,7 +171,6 @@ export function useDeleteExpense() {
 
             } catch (error) {
                 console.log(error);
-                toast.error('Adding expense failed')
             }
         },
         onSuccess: () => {
