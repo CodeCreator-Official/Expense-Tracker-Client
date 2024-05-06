@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-export function useGetCurrentUser() {
+export function useGetCurrentUser() { 
     return useQuery({
         queryKey: ['GET_CURRENT_USER'],
         queryFn: async () => { 

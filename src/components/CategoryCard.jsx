@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom"
 
-function CategoryCard({
+function CategoryCard({ 
     categoryName = 'Personal',
     totalExpenses,
     CategoryAmount,

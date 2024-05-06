@@ -2,7 +2,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom'
 
-const INTIAL_USER = {
+const INTIAL_USER = { 
     user_id: '',
     fullname: '', 
     avatar: '',

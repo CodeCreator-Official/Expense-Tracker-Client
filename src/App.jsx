@@ -7,7 +7,7 @@ import AuthLayout from './layout/AuthLayout'
 import Signup from './pages/auth/Signup'
 import Signin from './pages/auth/Signin'
 
-function App() { 
+function App() {
   return (
     <Routes>
       <Route path='/auth' element={<AuthLayout />}>

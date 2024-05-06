@@ -5,7 +5,7 @@ import { useGetAllExpensesByCategory } from "../lib/tanstack/Mutations"
 import { useEffect, useState } from "react"
 import Loader from "../components/ui/Loader"
 
-function ExpensesByCategory() { 
+function ExpensesByCategory() {
 
     const navigate = useNavigate()
     const categoryName = useParams()

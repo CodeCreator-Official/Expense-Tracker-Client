@@ -1,7 +1,7 @@
 import { useDeleteExpense } from "../lib/tanstack/Mutations";
 import convertTimestampToDate from "../functions/DateFormat";
 
-function ExpenseTable(data) {
+function ExpenseTable(data) { 
 
     const { mutateAsync: DeleteExpense } = useDeleteExpense()
 

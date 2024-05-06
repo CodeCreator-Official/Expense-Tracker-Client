@@ -4,7 +4,7 @@ import Loader from "../../components/ui/Loader"
 import useAuthContext from "../../context/AuthContext"
 import { useNavigate } from "react-router-dom"
 
-function Signin() { 
+function Signin() {
 
     const [error, setError] = useState({ error: false, message: '' })
     const { setUser } = useAuthContext()

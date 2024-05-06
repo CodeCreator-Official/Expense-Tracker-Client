@@ -3,7 +3,7 @@ import { useLogoutAccount } from "../lib/tanstack/Mutations"
 import { useState } from "react"
 import useAuthContext from "../context/AuthContext"
 
-function Navbar() { 
+function Navbar() {  
 
     const [showInfo, setShowInfo] = useState(false)
     const { mutateAsync: LogoutUser } = useLogoutAccount()
