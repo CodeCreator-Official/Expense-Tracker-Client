@@ -69,7 +69,7 @@ function Signin() {
             </form>
 
             <p className="text-sm text-gray-700 tracking-wide">New User?
-                <Link to="/auth/signup" className="font-semibold text-sky-600"> Create Account </Link>
+                <Link to="/signup" className="font-semibold text-sky-600"> Create Account </Link>
             </p>
 
             <p className="text-red-500">
