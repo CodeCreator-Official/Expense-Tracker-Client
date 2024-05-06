@@ -35,7 +35,7 @@ export function AuthContextProvider({ children }) {
             setIsAuthenticated(true)
         } else {
             setIsAuthenticated(false);
-            navigate('/auth/signin');
+            navigate('/signin');
         }
     }, [localStorage]);
 
