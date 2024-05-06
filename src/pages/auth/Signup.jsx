@@ -65,7 +65,7 @@ function Signup() {
             </form>
 
             <p className="text-sm text-gray-700 tracking-wide">Already have account?
-                <Link to="/auth/signin" className="font-semibold text-sky-600"> Login </Link>
+                <Link to="/signin" className="font-semibold text-sky-600"> Login </Link>
             </p>
 
             <p className="text-red-500">
