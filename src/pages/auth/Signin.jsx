@@ -29,7 +29,7 @@ function Signin() {
             console.log(formData)
 
             const res = await SubmitForm(formData)
-            if (res.success) {
+            if (res?.success) {
                 localStorage.setItem('user', JSON.stringify(res.data))
                 setUser(res.data)
                 navigate('/')
