@@ -4,7 +4,7 @@ import axios from 'axios'
 
 // Auth
 export function useCreateAccount() {
-    return useMutation({
+    return useMutation({ 
         mutationFn: async (formData) => {
             try {
                 const { data } = await axios({

@@ -3,7 +3,7 @@ import { useGetAllCategories } from "../lib/tanstack/Queries"
 import { useAddExpense } from "../lib/tanstack/Mutations"
 import Loader from "./ui/Loader"
 
-function AddExpense() {
+function AddExpense() { 
 
     const { data } = useGetAllCategories()
     const { mutateAsync: SubmitForm, isPending } = useAddExpense()

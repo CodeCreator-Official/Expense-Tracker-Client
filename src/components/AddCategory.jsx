@@ -2,7 +2,7 @@ import { useState } from "react"
 import Loader from "./ui/Loader"
 import { useAddCategory } from "../lib/tanstack/Mutations"
 
-function AddCategory() {
+function AddCategory() { 
 
     const [formData, setformData] = useState({
         category_name: '',

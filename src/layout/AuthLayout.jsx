@@ -5,7 +5,7 @@ function AuthLayout() {
         <div className="border w-full h-screen">
             <div className="w-full h-full flex items-center justify-center">
                 <Outlet/>
-            </div>
+            </div> 
         </div>
     )
 }

@@ -6,7 +6,7 @@ import ExpenseTable from "../components/ExpenseTable"
 import Navbar from "../components/Navbar"
 import { useGetAllExpenses, useGetAllExpensesInGroup } from "../lib/tanstack/Queries"
 
-function Home() {
+function Home() { 
 
   const { data: categories } = useGetAllExpensesInGroup()
   const { data: expenses, isLoading } = useGetAllExpenses()

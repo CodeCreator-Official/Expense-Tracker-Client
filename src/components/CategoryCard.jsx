@@ -6,7 +6,7 @@ function CategoryCard({
     categoryName = 'Personal',
     totalExpenses,
     CategoryAmount,
-    SpentAmount,
+    SpentAmount, 
 }) {
 
     const calculation = Math.floor((Number(SpentAmount) / (Number(CategoryAmount))) * 100)

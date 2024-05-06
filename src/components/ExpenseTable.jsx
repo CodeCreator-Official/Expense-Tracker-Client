@@ -7,7 +7,7 @@ function ExpenseTable(data) {
 
     async function handleDelete(id) {
         await DeleteExpense(id)
-    }
+    } 
 
     return (
         <table className="table-auto w-full text-nowrap">

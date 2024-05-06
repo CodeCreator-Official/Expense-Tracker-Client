@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 const INTIAL_USER = {
     user_id: '',
-    fullname: '',
+    fullname: '', 
     avatar: '',
     email: ''
 }

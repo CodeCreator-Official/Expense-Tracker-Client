@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useCreateAccount } from "../../lib/tanstack/Mutations";
 import Loader from "../../components/ui/Loader";
 
-function Signup() {
+function Signup() { 
 
     const [error, setError] = useState({ error: false, message: '' })
     const [formData, setFormData] = useState({

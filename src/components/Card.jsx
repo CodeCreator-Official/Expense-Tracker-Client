@@ -5,7 +5,7 @@ function Card({ children, heading }) {
         <div className="p-4 w-full">
             <h1 className="font-medium text-lg text-gray-600 mb-6">
                 {heading}
-            </h1>
+            </h1> 
             {children}
         </div>
     )

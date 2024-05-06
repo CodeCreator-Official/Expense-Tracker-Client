@@ -2,7 +2,7 @@ import CategoryCard from "../components/CategoryCard"
 import Navbar from "../components/Navbar"
 import { useNavigate } from 'react-router-dom'
 
-function AllCategories() {
+function AllCategories() { 
 
     const navigate = useNavigate()
 
