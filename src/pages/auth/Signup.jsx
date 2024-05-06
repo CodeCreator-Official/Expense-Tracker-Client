@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useCreateAccount } from "../../lib/tanstack/Mutations";
 import Loader from "../../components/ui/Loader";
+import { Link } from 'react-router-dom'
 
 function Signup() {
 
@@ -64,7 +65,7 @@ function Signup() {
             </form>
 
             <p className="text-sm text-gray-700 tracking-wide">Already have account?
-                <a href="/auth/signin" className="font-semibold text-sky-600"> Login </a>
+                <Link to="/auth/signin" className="font-semibold text-sky-600"> Login </Link>
             </p>
 
             <p className="text-red-500">

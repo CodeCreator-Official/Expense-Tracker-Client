@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useSigninAccount } from "../../lib/tanstack/Mutations"
 import Loader from "../../components/ui/Loader"
 import useAuthContext from "../../context/AuthContext"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 
 function Signin() {
 
@@ -69,7 +69,7 @@ function Signin() {
             </form>
 
             <p className="text-sm text-gray-700 tracking-wide">New User?
-                <a href="/auth/signup" className="font-semibold text-sky-600"> Create Account </a>
+                <Link to="/auth/signup" className="font-semibold text-sky-600"> Create Account </Link>
             </p>
 
             <p className="text-red-500">
