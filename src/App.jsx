@@ -10,9 +10,9 @@ import Signin from './pages/auth/Signin'
 function App() {
   return (
     <Routes>
-      <Route path='/auth' element={<AuthLayout />}>
-        <Route path='signup' element={<Signup />} />
-        <Route path='signin' element={<Signin />} />
+      <Route element={<AuthLayout />}>
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/signin' element={<Signin />} />
       </Route>
 
 
